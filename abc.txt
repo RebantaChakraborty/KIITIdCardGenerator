@@ -1,0 +1,21 @@
+CONNECT sys as sysdba;
+
+pwd:system
+
+CREATE USER c1234 IDENTIFIED BY crp;
+
+GRANT all privileges to c1234;
+
+stud(roll, name, dob, mob)
+
+create table stud(roll number(7), name varchar(30), dob date, mob number(10));
+
+INSERT INTO stud(roll, name, dob, mob) VALUES (25, 'mokhsya', '12-jul-2002', 1234);
+
+INSERT INTO stud(roll, name, mob) VALUES (93, 'shrey', 3456);
+
+INSERT INTO stud VALUES (5, 'aman', '10-aug-2002', 4567);
+
+
+INSERT INTO stud VALUES (57, 'srijan', '', 4567);
+2872000

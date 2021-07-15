@@ -1,0 +1,156 @@
+.logo img {
+  width: 50%;
+  /* border: 2px solid blue; */
+  height: auto;
+  margin-left: 5rem;
+  display: block;
+  margin: auto;
+}
+.logo {
+  margin-top: 2rem;
+}
+body {
+  background-color: black !important;
+  color: #f0ffff !important;
+}
+.productTitle {
+  margin: 3rem;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  font-size: 0.7rem;
+}
+.productTitle h3 {
+  font-size: 1.1rem;
+}
+
+.mainProduct {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.DetailsEntry {
+  /* border: 2px solid yellow; */
+  width: 25rem;
+  margin: 1rem;
+}
+.DetailsEntry input {
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  border-bottom-style: groove;
+  background-color: transparent;
+  width: 100%;
+  overflow: hidden;
+  font-size: 1.5rem;
+  color: white;
+  margin: 2rem 0;
+  border-bottom: 2px solid;
+}
+.DetailsEntry input:focus {
+  outline: none !important;
+  border-color: green;
+}
+.LiveCard {
+  /* border: 2px solid Green; */
+  min-width: 250px;
+  min-height: 250px;
+  margin: 2rem;
+}
+@media screen and (max-width: 950px) {
+  .mainProduct {
+    flex-direction: column;
+  }
+}
+.DetailsEntry input:hover {
+  border-color: green;
+}
+#personalImage {
+  cursor: pointer;
+}
+@media screen and (max-width: 432px) {
+  .DetailsEntry {
+    width: 18rem;
+  }
+}
+.screenshot {
+  padding: 1px;
+  padding-left: 0;
+}
+.card {
+  min-height: 25rem;
+  box-shadow: 20px 20px 900px rgb(119, 116, 116);
+  border-radius: 150px;
+}
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  width: 90% !important;
+  /*  */
+  margin: auto !important;
+}
+.card hr {
+  color: green !important;
+  margin-bottom: 0.02rem !important;
+  margin-top: 0.8rem !important;
+}
+.card h5 {
+  color: black !important;
+  /* border: 2px solid green; */
+  margin-top: 0.02rem !important;
+  margin: auto;
+}
+.card h4 {
+  /* color: red !important; */
+  margin: auto;
+}
+.card .imageBox {
+  border: 1.5px solid green;
+
+  width: 45%;
+  margin: auto;
+  margin-top: 1rem;
+  height: 8rem;
+}
+.card .imageBox img {
+  width: 100%;
+  height: 7.8rem;
+}
+.card-body {
+  /* border: 1px solid red; */
+  margin-top: 0.2rem;
+  padding: 0 !important;
+}
+.card-body h5 {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 0 !important;
+}
+.table-body {
+  margin-left: 1.4rem;
+  width: 70%;
+}
+.card-body h6 {
+  margin-left: 14.5rem !important;
+
+  /* border: 2px solid red; */
+}
+td:nth-child(2) {
+  width: 1px;
+  position: sticky;
+  /* background-color: blue; */
+}
+.download {
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profilePic:hover {
+  color: green;
+}
+.btn-outline-success {
+  color: #17d059 !important;
+  border-color: #17d059 !important;
+}
